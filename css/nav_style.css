@@ -1,0 +1,51 @@
+
+
+.nav {
+    float: right;
+}
+
+.projectName {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 13px;
+}
+
+.projectName a {
+    color: white;
+    padding: 15px;
+}
+
+/*.navbar-inverse { border: none;}
+.navbar-header { border: none;}
+.navbar-collapse { border: none;}
+.navbar-nav { border: none;}*/
+
+/*.home {
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}*/
+
+/*.navbar {
+	background-color: black; opacity: 0.2;
+}*/
+
+/*.navbar a:hover {
+       color: #00bfff;
+       text-decoration: none;
+}*/
+
+/*
+.navbar ul li {
+	
+	float: right;
+
+}*/
+
+/*.navbar ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 200ms;
+}
+*/

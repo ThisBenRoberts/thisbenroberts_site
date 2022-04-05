@@ -1,0 +1,264 @@
+.jumbotron{
+	background-image: url("../img/tabletop.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	min-height: 650px;
+
+}
+
+.jumbotron p {
+      color: white;
+      text-align: center;
+}
+
+.jumbotron h1 {
+	text-align: center;
+      color: #B8B8B8;
+}
+
+body {
+  position: relative;
+}
+
+
+.anchor {
+  padding-top: 100px; 
+}
+
+
+#about{
+	position: relative;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	padding:50px;
+	padding-top: 100px;
+	content:".";
+	display:block;
+	clear:both;
+
+/*	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  */
+
+/*	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;*/
+
+	/*background-image: url("../img/metal-gears-powerpoint-backgrounds.jpg");*/
+/*Add a background image*/
+	
+/*Give the background a fixed position does it not scroll when you scroll*/
+	/*background-size: cover;*/
+/*Have the background cover the entire div section*/
+	
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+
+
+
+	/*height: 750px;*/
+	/*width: 100%;*/
+    /*height:auto;*/
+
+}
+
+/*#aboutrow{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}*/
+
+#about:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: 0;
+    opacity: .4;
+    background-image: url("../img/metal-gears-powerpoint-backgrounds.jpg");
+/*Add a background image*/
+	
+/*Give the background a fixed position does it not scroll when you scroll*/
+	/*background-size: cover;*/
+    
+    /*background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;*/
+	/*background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;*/
+
+	background-attachment: fixed;
+/*	background-attachment: fixed;*/
+	
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+
+}
+
+#work{
+	background-image: url("../img/lights-on-concrete-wall-powerpoint-backgrounds_edited2.jpg");
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+/*Have the background cover the entire div section*/
+	color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:100px;
+	padding-top: 100px;
+
+/*	height: 650px;*/
+
+
+}
+
+
+#work div div {
+	margin:0px;
+}
+
+#work p{
+		margin-top: 10px;
+}
+
+#contact{
+	position: relative;
+	 overflow: hidden;
+	 background-color: black;
+	/*background-image: url("../img/podklad-pod-rozhovor.jpg");*/
+/*Add a background image*/
+	/*background-attachment: fixed;*/
+/*Give the background a fixed position does it not scroll when you scroll*/
+	/*background-size: cover;*/
+/*Have the background cover the entire div section*/
+	color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:50px;
+	padding-top: 10%;
+	/*height: 600px;*/
+	min-height: 500px;
+	
+}
+
+
+#contact:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: 0;
+    opacity: .3;
+    background-image: url("../img/podklad-pod-rozhovor.jpg");
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+   /* background-image: url('http://placekitten.com/1500/1000');
+    background-repeat: no-repeat;*/
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 20%;
+
+   
+}
+
+
+
+#contact div div {
+	margin:0px;
+	text-align: center;
+
+}
+
+/*#cntctrow{
+	height: 400px;
+}*/
+
+#cntctitem{
+	padding-right: 10px;
+	padding-left: 10px
+}
+
+#blankspace{
+	display: none;
+}
+
+#faq{
+	position: relative;
+	 overflow: visible;
+
+	 /*background-color: black;*/
+	/*background-image: url("../img/podklad-pod-rozhovor.jpg");*/
+/*Add a background image*/
+	/*background-attachment: fixed;*/
+/*Give the background a fixed position does it not scroll when you scroll*/
+	/*background-size: cover;*/
+/*Have the background cover the entire div section*/
+	/*color: white;*/
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:50px;
+	padding-top: 50px;
+	/*height: 400px;*/
+}
+
+
+#faq:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: -1;
+    /*opacity: .0;*/
+    background-image: url("../img/woodletters.jpeg");
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+   /* background-image: url('http://placekitten.com/1500/1000');
+    background-repeat: no-repeat;*/
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+footer{
+background-color: black;
+color: grey;
+
+}

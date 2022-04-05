@@ -1,0 +1,477 @@
+
+
+@media (max-width: 599px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: red;*/
+		background-size: cover;
+		min-height: 400px;
+	}
+
+/*	.jumbotron h1   { 
+		font-size: 95%;
+		color: black;
+	}
+
+	.jumbotron p   { 
+		font-size: 80%;
+
+	}*/
+	/*#headline {
+		display: none;
+	}*/
+
+	#aboutbutton{
+		display: none;
+	}
+
+	#constrcimage{
+		display: none;
+	}
+
+	p  { font-size: 80%}
+
+	#lg-txt {
+		display: none;
+	}
+
+
+
+	#work{
+		padding:25px;
+		/*height:550px;*/
+	}
+	/*#contact {
+		padding:0px;
+		
+	}*/
+
+	#faq{
+		/*height: 420px;*/
+		padding-top: 50px;
+	}
+
+
+  }
+
+
+@media (min-width: 600px) and (max-width: 710px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: yellow;*/
+		background-size: cover;
+		min-height: 450px;
+	}
+
+
+	p  { font-size: 90%}
+
+	.nav ul li a {
+		color:black;
+	}
+
+	#work{
+		padding:50px;
+		/*height:650px;*/
+	}
+	
+/*	#about {
+		height: 750px;
+	}*/
+
+	#aboutbutton{
+		display: none;
+	}
+
+	#constrcimage{
+		display: none;
+	}
+
+	/*#contact {
+		padding:0px;
+		
+	}*/
+
+	#blankspace3 {
+		display: inline;
+	}
+
+	#faq{
+		/*height: 300px;*/
+		padding: 25px;
+	}
+	
+	#accordion
+{position: relative;
+	top: 50%;
+transform: translateY(-50%);}
+}
+
+
+
+@media (min-width: 710px) and (max-width: 767px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: yellow;*/
+		background-size: cover;
+		min-height: 470px;
+	}
+
+
+	p  { font-size: 90%}
+
+	.nav ul li a {
+		color:black;
+	}
+
+	#work{
+		padding:50px;
+		/*height:650px;*/
+	}
+	
+/*	#about {
+		height: 700px;
+	}*/
+
+	#aboutbutton{
+		display: none;
+	}
+
+	#constrcimage{
+		display: none;
+	}
+
+	/*#contact {
+		padding:0px;
+		
+	}*/
+
+	#blankspace3 {
+		display: inline;
+	}
+
+	#faq{
+		/*height: 400px;*/
+	}
+
+	#accordion
+{position: relative;
+	top: 50%;
+transform: translateY(-50%);}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 843px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: orange;*/
+		background-size: cover;
+		min-height: 500px;
+	}
+
+	#midcol{
+	padding: 1px 30px;
+	}
+
+	#work{
+		padding:100px 50px;
+	}
+
+	#cntctitem {
+		padding-bottom: 45px;
+	}
+
+	#blankspace {
+		display: inline;
+	}
+	#blankspace2 {
+		display: inline;
+	}
+
+
+/*#contact {
+		padding:0px;
+		
+	}*/
+
+	
+
+	#faq{
+		/*height: 300px;*/
+
+	}
+
+	/*#accordion
+{position: relative;
+	top: 50%;
+transform: translateY(-50%);}*/
+
+  }
+  
+
+
+
+
+
+  @media (min-width: 844px) and (max-width: 990px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: blue;*/
+		background-size: cover;
+	}
+
+	#midcol{
+	padding: 1px 30px;
+	}
+
+	#work{
+		padding:100px 50px;
+	}
+
+	#cntctitem {
+		padding-bottom: 45px;
+	}
+
+	#blankspace {
+		display: inline;
+	}
+
+/*	#accordion
+{position: relative;
+	top: 50%;
+transform: translateY(-50%);}*/
+
+
+  }
+
+   @media (min-width: 991px) and (max-width: 1000px) {
+
+  	.jumbotron{ 
+  		/*background-image: url("");
+  		background-color: green;*/
+		background-size: cover;
+	}
+
+	#midcol{
+	padding: 1px 30px;
+	}
+
+	#work{
+		padding:100px 50px;
+	}
+
+	#blankspace {
+		display: inline;
+	}
+
+	#contact {
+		padding:0px;
+		height:350px;
+	}
+
+	
+
+	#faq{
+		height: 300px;
+		
+	}
+
+	/*#accordion
+{position: relative;
+	top: 50%;
+transform: translateY(-50%);}*/
+
+
+  }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+	
+    #about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+
+}
+
+@media only screen /*ipad*/
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* STYLES GO HERE */
+	#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }}
+
+
+@media only screen /*ipad 3,4*/
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
+
+@media only screen /*ipad 1,2*/
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){ /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
+@media only screen /*ipad mini*/
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
+@media only screen /*iphone 6*/
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }}
+
+@media only screen  /*iphone 6 plus*/
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
+@media only screen /*iphone 5&5s*/
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
+@media only screen /*iphone 2g-4s*/
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { /* STYLES GO HERE */
+#about:before{
+        background-attachment: scroll;
+    }
+
+    #work{
+    	background-attachment: scroll;
+    }
+
+    #contact:before{
+    	background-attachment: scroll;
+    }
+
+    #faq:before{
+    	background-attachment: scroll;
+    }
+    }
+
